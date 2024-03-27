@@ -1,0 +1,12 @@
+.Body {
+  position: relative;
+  top: 7rem;
+  width: 90%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .Body {
+    width: 100% !important;
+  }
+}

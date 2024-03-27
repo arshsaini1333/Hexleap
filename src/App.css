@@ -1,0 +1,15 @@
+.App {
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  margin: auto;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.dark {
+  background-color: #292b32 !important;
+}

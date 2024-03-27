@@ -1,0 +1,109 @@
+.Top {
+  display: grid;
+  align-items: center;
+  /* padding-bottom: 3rem; */
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards .card {
+  width: 17%;
+}
+
+.dark {
+  color: white;
+  background-color: #292b32 !important;
+}
+
+.dark .cards {
+  background-color: #292b32;
+}
+
+.card {
+  padding: 0.5rem;
+  border-radius: 0 !important;
+  border: none;
+  box-shadow: 2px 2px 5px #292b32;
+}
+
+.card img {
+  border-radius: 0 !important;
+  height: 25rem;
+}
+
+.content {
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.light .content {
+  background-color: #f7f7f8;
+}
+
+.light .content .headingss {
+  color: #525965;
+}
+
+.values {
+  color: black;
+  font-weight: 600;
+}
+
+.cards .ad img {
+  height: 11rem;
+}
+
+.dark .card {
+  color: white;
+  background-color: #3b3e47;
+}
+
+.dark .card .content {
+  color: white;
+  background-color: #292b32;
+}
+
+.dark .card .content .headingss {
+  color: #dfdfdf !important;
+}
+
+.dark .card .content .values {
+  color: white;
+}
+
+.btn {
+  width: 10rem;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.buttn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark .buttn {
+  background-color: #292b32;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card {
+    width: 25% !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    width: 50% !important;
+  }
+}
